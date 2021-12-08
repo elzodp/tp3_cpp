@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/elhadji/Bureau/chps2021/TD2_simulator_archi/include/ITimeDiscretization.h
+iostream
+-
+
+/home/elhadji/Bureau/chps2021/TD2_simulator_archi/include/equation.h
+iostream
+-
+
+/home/elhadji/Bureau/chps2021/TD2_simulator_archi/include/probleme.h
+equation.h
+/home/elhadji/Bureau/chps2021/TD2_simulator_archi/include/equation.h
+ITimeDiscretization.h
+/home/elhadji/Bureau/chps2021/TD2_simulator_archi/include/ITimeDiscretization.h
+iostream
+-
+
+/home/elhadji/Bureau/chps2021/TD2_simulator_archi/src/probleme.cpp
+../include/probleme.h
+/home/elhadji/Bureau/chps2021/TD2_simulator_archi/include/probleme.h
+iostream
+-
+

@@ -12,7 +12,7 @@ public:
     virtual ~Equation() = default;
     
     //virtual double compute(double tmp);
-    virtual void compute(double tmp_courant,size_t pas_tmp,Variable &y_n);
+    virtual void compute(double tmp_courant,double pas_tmp,Variable &y_n);
     virtual void  compute_initial_condition(double initial_time,Variable &y_n);
 private:
     double m_i = 0.0;

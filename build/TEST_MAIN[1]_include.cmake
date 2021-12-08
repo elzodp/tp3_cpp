@@ -1,0 +1,5 @@
+if(EXISTS "/home/elhadji/Bureau/chps2021/TD2_simulator_archi/build/TEST_MAIN[1]_tests.cmake")
+  include("/home/elhadji/Bureau/chps2021/TD2_simulator_archi/build/TEST_MAIN[1]_tests.cmake")
+else()
+  add_test(TEST_MAIN_NOT_BUILT TEST_MAIN_NOT_BUILT)
+endif()
