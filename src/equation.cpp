@@ -17,6 +17,6 @@ void Equation::compute_initial_condition(double initial_time,Variable & y){
 
 void Equation::compute(double tmp_courant,double pas_tmp,Variable &y_n){
   double y=(y_n(tmp_courant) + pas_tmp*tmp_courant);
-  double yn_1=y;
+  double y_n_1(tmp_courant + pas_tmp) = y;
 }
 
